@@ -1,11 +1,4 @@
-import React from "react";
-import Book from "./components/book/Book";
-import Navbar from "./navbar/Navbar";
-import Header from "./Header/Header";
-// import { data } from "./data";
-
-// List object with data
-const books = [
+export const data = [
   {
     id: 1,
     img: "https://m.media-amazon.com/images/I/51Zu0ZwT0jL._SY291_BO1,204,203,200_QL40_FMwebp_.jpg",
@@ -184,19 +177,3 @@ const books = [
     price: 9.93,
   },
 ];
-
-function BookList() {
-  return (
-    <>
-      <Header />
-      <Navbar />
-      <section className="bookList">
-        {books.map((book) => {
-          const { id } = book;
-          return <Book key={id} book={book} />;
-        })}
-      </section>
-    </>
-  );
-}
-export default BookList;

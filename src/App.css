@@ -18,7 +18,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: #0f1111;
+  background: #080909;
   width: 100%;
   height: 60px;
   text-align: center;
@@ -126,7 +126,7 @@ nav h4 {
   border: 1px solid rgba(226, 225, 225, 0.62);
   width: 270px;
   height: 320px;
-  background: rgba(200, 199, 199, 0.454);
+  background: rgba(217, 214, 214, 0.162);
   padding: 0.14rem;
   padding-right: 10px;
 }
