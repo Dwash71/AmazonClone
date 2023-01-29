@@ -1,38 +1,200 @@
-.App {
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&family=Poppins:wght@100;200;300;400;500;600&family=Quicksand:wght@300;400;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Quicksand", sans-serif;
+  background: #fff;
+  color: rgb(255, 255, 255);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #0f1111;
+  width: 100%;
+  height: 60px;
   text-align: center;
+  font-family: "Lato", sans-serif;
+  padding: 0.5rem;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header h1 {
+  font-size: 1.75rem;
+  margin: 20px auto;
+  margin-left: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.left-side-list {
+  margin-right: 3rem;
+  padding-left: 1.5rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.left-side-list span {
+  font-size: 0.5rem;
+}
+.left-side-list li {
+  list-style: none;
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
+  font-size: 0.6rem;
+}
+.left-side-list li a {
+  color: white;
+  text-decoration: none;
+}
+.search {
+  width: 90%;
+  margin-left: 1rem;
+  margin-right: 3rem;
+  padding: 0.35rem;
+  border-radius: 0.35rem;
+  border: none;
+}
+.logo {
+  width: 70px;
+  height: 50px;
+  margin-left: 1rem;
+}
+.right-side-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem;
+  margin-left: 1.5rem;
+}
+
+.right-side-list span {
+  font-size: 0.5rem;
+}
+.right-side-list li {
+  font-family: "Lato", sans-serif;
+  font-size: 0.65rem;
+  font-weight: 600;
+  list-style: none;
+  padding: 0.5rem;
+}
+.right-side-list li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav {
+  width: 100%;
+  height: 40px;
+  background: #232f3e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+}
+.list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.list li {
+  list-style: none;
+  padding: 0.5rem;
+  font-size: 0.58rem;
+}
+
+.list li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav h4 {
+  color: white;
+  font-size: 0.75rem;
+  font: sans-serif;
+}
+/* book container that holds books */
+.book {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  border: 1px solid rgba(226, 225, 225, 0.62);
+  width: 270px;
+  height: 320px;
+  background: rgba(200, 199, 199, 0.454);
+  padding: 0.14rem;
+  padding-right: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.bookList {
+  /* width: 40vw; */
+  /* max-width: 800px; */
+  margin: 0.5rem 11rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.book img {
+  width: 115px;
+  max-width: 115px;
+  height: 170px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  overflow-clip-margin: content-box;
+  cursor: pointer;
+}
+.book img:hover {
+  transform: scale(1.1);
+  transition: all 0.25s linear;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  cursor: pointer;
+}
+h2,
+h3,
+h4 {
+  margin-left: 1rem;
+}
+h2 {
+  color: #617d98;
+  font-size: 0.56rem;
+}
+
+h3 {
+  color: #617d98;
+  font-size: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+h4 {
+  color: red;
+  font-size: 0.53rem;
+  margin-bottom: 0.5rem;
+}
+
+/* create modal image popup */
+/* Style the Image Used to Trigger the Modal */
+#myImg {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.galleryBox {
+  border: 1px solid red;
+  width: 80vw;
+  height: 70vh;
+}
+
+#myImg:hover {
+  opacity: 0.7;
 }
