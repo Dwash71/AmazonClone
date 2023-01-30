@@ -198,3 +198,217 @@ h4 {
 #myImg:hover {
   opacity: 0.7;
 }
+
+@media (max-width: 1600px) {
+  .book {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(226, 225, 225, 0.62);
+    width: 270px;
+    height: 320px;
+    background: rgba(217, 214, 214, 0.162);
+    padding: 0.14rem;
+    padding-right: 10px;
+  }
+  .bookList {
+    margin: 0.5rem 8rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+  }
+
+  .book img {
+    width: 115px;
+    max-width: 115px;
+    height: 170px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    overflow-clip-margin: content-box;
+    cursor: pointer;
+  }
+}
+
+@media (max-width: 1460px) {
+  .book {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(226, 225, 225, 0.62);
+    width: 270px;
+    height: 320px;
+    background: rgba(217, 214, 214, 0.162);
+    padding: 0.14rem;
+    padding-right: 10px;
+  }
+  .bookList {
+    margin: 0.5rem 4rem;
+    padding-left: 6rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+  }
+
+  .book img {
+    width: 115px;
+    max-width: 115px;
+    height: 170px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    overflow-clip-margin: content-box;
+    cursor: pointer;
+  }
+}
+@media (max-width: 1600px) {
+  .book {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(226, 225, 225, 0.62);
+    width: 270px;
+    height: 320px;
+    background: rgba(217, 214, 214, 0.162);
+    padding: 0.14rem;
+    padding-right: 10px;
+  }
+  .bookList {
+    margin: 0.5rem 8rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+  }
+
+  .book img {
+    width: 115px;
+    max-width: 115px;
+    height: 170px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    overflow-clip-margin: content-box;
+    cursor: pointer;
+  }
+}
+@media (max-width: 1460px) {
+  .book {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(226, 225, 225, 0.62);
+    width: 270px;
+    height: 320px;
+    background: rgba(217, 214, 214, 0.162);
+    padding: 0.14rem;
+    padding-right: 10px;
+  }
+  .bookList {
+    margin: 0.5rem 4rem;
+    padding-left: 6rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+  }
+
+  .book img {
+    width: 115px;
+    max-width: 115px;
+    height: 170px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    overflow-clip-margin: content-box;
+    cursor: pointer;
+  }
+}
+@media (max-width: 1300px) {
+  .book {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(226, 225, 225, 0.62);
+    width: 270px;
+    height: 320px;
+    background: rgba(217, 214, 214, 0.162);
+    padding: 0.14rem;
+    padding-right: 10px;
+  }
+  .bookList {
+    margin: 0.5rem 7rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+  }
+
+  .book img {
+    width: 115px;
+    max-width: 115px;
+    height: 170px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    overflow-clip-margin: content-box;
+    cursor: pointer;
+  }
+}
+@media (max-width: 1250px) {
+  .book {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(226, 225, 225, 0.62);
+    width: 270px;
+    height: 320px;
+    background: rgba(217, 214, 214, 0.162);
+    padding: 0.14rem;
+    padding-right: 10px;
+  }
+  .bookList {
+    margin: 0.5rem 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+  }
+
+  .book img {
+    width: 115px;
+    max-width: 115px;
+    height: 170px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    overflow-clip-margin: content-box;
+    cursor: pointer;
+  }
+}
+@media (max-width: 1070px) {
+  .book {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(226, 225, 225, 0.62);
+    width: 270px;
+    height: 320px;
+    background: rgba(217, 214, 214, 0.162);
+    padding: 0.14rem;
+    padding-right: 10px;
+  }
+  .bookList {
+    margin: 0.5rem 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+  }
+
+  .book img {
+    width: 115px;
+    max-width: 115px;
+    height: 170px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    overflow-clip-margin: content-box;
+    cursor: pointer;
+  }
+}
